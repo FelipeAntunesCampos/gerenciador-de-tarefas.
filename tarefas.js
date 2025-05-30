@@ -10,11 +10,13 @@ console.log(tarefas)
 // Etapa 2: Removendo a Última Tarefa
 let ultimoItemRemovido = tarefas.pop(""); //Outra maneira - let elementosRemovidos = tarefas.splice(-1, 1); 
 //removendo o último estilo
-
 console.log("Depois do pop:", tarefas); 
-
 console.log("Elementos removidos:", ultimoItemRemovido);
 
 // Etapa 3: Adicionando uma Tarefa no Início
-let estiloAdicionadoPrimeiraPosicao = tarefas.unshift("Ir ao banheiro"); // adicionando estilo na primeira posição do índice
+let tarefaAdicionadaPrimeiraPosicao = tarefas.unshift("Ir ao banheiro"); // adicionando estilo na primeira posição do índice
 console.log("Depois do unshift:", tarefas); 
+
+// Etapa 4: Removendo a Primeira Tarefa
+let tarefaRemovidaPrimeiraPosicao = tarefas.shift();
+console.log("Depois do shift:", tarefas); 
