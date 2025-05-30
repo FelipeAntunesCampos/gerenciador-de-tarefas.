@@ -24,7 +24,7 @@ console.log("Depois do shift:", tarefas);
 // Etapa 5: Verificando se uma Tarefa Existe
 const tarefaParaVerificar = 'Ir à academia';
 
-if (tarefas.includes(tarefaParaVerificar) = false) {
+if (!tarefas.includes(tarefaParaVerificar)) {
   tarefas.push(tarefaParaVerificar);
   console.log("Tarefa ", tarefaParaVerificar, " adicionada.");
 } else {
@@ -32,3 +32,6 @@ if (tarefas.includes(tarefaParaVerificar) = false) {
 }
 
 console.log('Lista de tarefas atualizada:', tarefas);
+
+//  Etapa 6: Transformando a Lista em String
+console.log("Tarefas como string:", tarefas.join(', '));  
