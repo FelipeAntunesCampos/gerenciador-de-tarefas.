@@ -50,3 +50,10 @@ console.log("Depois de adicionar com splice:", tarefas);
 //Etapa 9: Concatenando Tarefas
 let tarefas2 = ['Arrumar a cama','Tomar café da manhã','Praticar atividades físicas','Tomar um banho']
 console.log("Lista de tarefas combinadas:", tarefas.concat(tarefas2));
+
+//Etapa 10: Transformando as Tarefas
+let contadorTarefasTransformadas = [];
+for (let i = 0; i < tarefas.length; i++) {
+  contadorTarefasTransformadas.push('Fazer: ' + tarefas[i]);
+}
+console.log(contadorTarefasTransformadas);
