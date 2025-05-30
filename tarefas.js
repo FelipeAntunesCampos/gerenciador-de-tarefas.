@@ -41,3 +41,8 @@ let elementosRemovidos = tarefas.splice(2, 4);
 console.log("Depois do splice:", tarefas); 
 console.log("Elementos removidos:", elementosRemovidos);
 
+//Etapa 8: Alterando a Lista
+tarefas.splice(3, 1)
+console.log("Depois de remover com o splice:", tarefas); 
+tarefas.splice(3, 0, "Lavar a camisa do futebol")
+console.log("Depois de adicionar com splice:", tarefas); 
