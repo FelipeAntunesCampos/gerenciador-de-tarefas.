@@ -15,3 +15,6 @@ console.log("Depois do pop:", tarefas);
 
 console.log("Elementos removidos:", ultimoItemRemovido);
 
+// Etapa 3: Adicionando uma Tarefa no Início
+let estiloAdicionadoPrimeiraPosicao = tarefas.unshift("Ir ao banheiro"); // adicionando estilo na primeira posição do índice
+console.log("Depois do unshift:", tarefas); 
