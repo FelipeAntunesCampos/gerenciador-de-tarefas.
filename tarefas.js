@@ -61,3 +61,7 @@ console.log(contadorTarefasTransformadas);
 //Etapa 11: Filtrando Tarefas
 let tarefasFiltradas = tarefas.filter(tarefaMais15Caracter => tarefaMais15Caracter.length >= 15);
 console.log("Tarefas filtrada (Tarefas com mais de 15 letras):", tarefasFiltradas);
+
+// Etapa 12: Ordenando as Tarefas
+tarefas.sort()
+console.log(tarefas);
