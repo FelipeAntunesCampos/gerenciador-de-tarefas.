@@ -20,3 +20,6 @@ console.log("Depois do unshift:", tarefas);
 // Etapa 4: Removendo a Primeira Tarefa
 let tarefaRemovidaPrimeiraPosicao = tarefas.shift();
 console.log("Depois do shift:", tarefas); 
+
+// Etapa 5: Verificando se uma Tarefa Existe
+console.log("A playlist inclui 'Fazer natação'?", playlist.includes('Fazer natação')) 
