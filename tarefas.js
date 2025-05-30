@@ -46,3 +46,7 @@ tarefas.splice(3, 1)
 console.log("Depois de remover com o splice:", tarefas); 
 tarefas.splice(3, 0, "Lavar a camisa do futebol")
 console.log("Depois de adicionar com splice:", tarefas); 
+
+//Etapa 9: Concatenando Tarefas
+let tarefas2 = ['Arrumar a cama','Tomar café da manhã','Praticar atividades físicas','Tomar um banho']
+console.log("Lista de tarefas combinadas:", tarefas.concat(tarefas2));
