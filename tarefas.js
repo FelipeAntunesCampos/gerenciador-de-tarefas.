@@ -7,3 +7,11 @@ let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar 
 tarefas.push('Jogar bola', 'Beber água') // adicionando um novo estilo
 console.log(tarefas)
 
+// Etapa 2: Removendo a Última Tarefa
+let ultimoItemRemovido = tarefas.pop(""); //Outra maneira - let elementosRemovidos = tarefas.splice(-1, 1); 
+//removendo o último estilo
+
+console.log("Depois do pop:", tarefas); 
+
+console.log("Elementos removidos:", ultimoItemRemovido);
+
