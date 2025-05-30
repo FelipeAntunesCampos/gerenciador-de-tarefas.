@@ -22,4 +22,13 @@ let tarefaRemovidaPrimeiraPosicao = tarefas.shift();
 console.log("Depois do shift:", tarefas); 
 
 // Etapa 5: Verificando se uma Tarefa Existe
-console.log("A playlist inclui 'Fazer natação'?", playlist.includes('Fazer natação')) 
+const tarefaParaVerificar = 'Ir à academia';
+
+if (tarefas.includes(tarefaParaVerificar) = false) {
+  tarefas.push(tarefaParaVerificar);
+  console.log("Tarefa ", tarefaParaVerificar, " adicionada.");
+} else {
+  console.log("A tarefa", tarefaParaVerificar, "já existe na lista.");
+}
+
+console.log('Lista de tarefas atualizada:', tarefas);
