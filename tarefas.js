@@ -35,3 +35,9 @@ console.log('Lista de tarefas atualizada:', tarefas);
 
 //  Etapa 6: Transformando a Lista em String
 console.log("Tarefas como string:", tarefas.join(', '));  
+
+//Etapa 7: Extraindo uma Parte da Lista
+let elementosRemovidos = tarefas.splice(2, 4); 
+console.log("Depois do splice:", tarefas); 
+console.log("Elementos removidos:", elementosRemovidos);
+
